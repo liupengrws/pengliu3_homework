@@ -7,6 +7,6 @@ $ pip install requests
 # run
 $ python query_vendor_by_mac.py <mac_address>
 
-# security considerartions
+# security considerations
 - use https
 - save token in a file which can be accessed by only specifiled users.
