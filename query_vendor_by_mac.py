@@ -20,11 +20,11 @@ headers = {
 def query_vendor(maddr):
 	params = {'search': maddr}
 	res = requests.get(url, headers=headers, params=params)
-	print res.text
+	print(res.text)
 
 if __name__ == '__main__':
 	if len(sys.argv) < 2:
-		print 'Please input MAC address.'
+		print('Please input MAC address.')
 		sys.exit()
 
 	query_vendor(sys.argv[1])
