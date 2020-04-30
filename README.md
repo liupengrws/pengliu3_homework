@@ -11,7 +11,7 @@ $ pip install requests
 $ python query_vendor_by_mac.py <mac_address>
 
 # docker
-$ docker build -t homework-python3-pengliu3 .
+$ docker build -t homework-python3-pengliu3 .  
 $ docker run homework-python3-pengliu3 python ./query_vendor_by_mac.py <mac_address>
 
 # security considerations
